@@ -9,7 +9,7 @@ function App() {
           <img id="pic" src={pic} />
           <div id="caption"> 
             <p> <b> Hey, I am Kirat </b> </p>
-            <p style={{top: '-5vh', width: '70%', fontSize: 'medium', color: '#ffaf47'}}> 
+            <p style={{width: '70%', fontSize: 'medium', color: '#ffaf47'}}> 
               I am a UNSW Commerce student passionate about software development and all things tech. 
               By joining DevSoc, I am hoping to pick up technical and soft skills that will help me pursue a career in software dev.
             </p>
