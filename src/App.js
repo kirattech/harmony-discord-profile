@@ -1,5 +1,6 @@
 import pic from './pictureOfMe.jpg';
 import './App.css';
+import 'normalize.css';
 
 function App() {
   return (
@@ -8,8 +9,8 @@ function App() {
         <div id="items">
           <img id="pic" src={pic} />
           <div id="caption"> 
-            <p> <b> Hey, I am Kirat </b> </p>
-            <p style={{width: '70%', fontSize: 'medium', color: '#ffaf47'}}> 
+            <h1 id="caption-title"> Hey, I am Kirat </h1>
+            <p id="caption-subtitle"> 
               I am a UNSW Commerce student passionate about software development and all things tech. 
               By joining DevSoc, I am hoping to pick up technical and soft skills that will help me pursue a career in software dev.
             </p>

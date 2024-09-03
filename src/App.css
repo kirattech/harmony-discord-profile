@@ -1,19 +1,66 @@
+@import 'normalize.css';
+
+html {
+  height: 160%;
+}
+
+body {
+  height: 155%;
+}
+
 html, body {
-  height: 165%;
   background-color: #ffaf47;
   overflow-x: hidden;
 }
 
-#items {
+.App-header {
   background-color: #340758;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: #ffaf47;
 }
+
+#pic {
+  height: 50vh;
+  border-radius: 50%; 
+  position: absolute;
+  top: 10vh;
+  left: 40vw;
+}
+
+#caption {
+  position: absolute;
+  top: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  height: 50vh;
+}
+
+#caption-title {
+  color: #ffaf47;
+  font-family: Helvetica;
+  position: absolute; 
+  font-size: 70px;
+  top: -26vh;
+  left: -50vw;
+  width: 100vw;
+}
+
+#caption-subtitle {
+  position: absolute; 
+  top: -3vh;
+  width: 60vw;
+  font-size: medium; 
+  color: #ffaf47;
+  text-align:center;
+}
+
 
 #story, .harmony-discord-headline {
   position: relative;
@@ -29,39 +76,14 @@ html, body {
   min-height: 40vh;
 }
 
-#pic {
-  height: 50vh;
-  border-radius: 50%; 
-  position: relative;
-  top: 10vh;
-  left: 4vh;
-}
-
-#caption > p {
-  color: #ffaf47;
-  font-size: 70px;
-  font-family: Helvetica;
-  position: relative; 
-  top: 4vh;
+.story, ul, .harmony-discord-text {
+  color: #340758; 
 }
 
 p {
   font-size: medium;
   text-align: center;
   font-family: Helvetica;
-}
-
-#caption {
-  top: 60vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 h1 {
@@ -73,8 +95,4 @@ ul {
   position: relative;
   left: 20%; 
   width: 55%;
-}
-
-.story, ul, .harmony-discord-text {
-  color: #340758; 
 }
