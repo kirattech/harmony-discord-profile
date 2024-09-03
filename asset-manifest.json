@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/harmony-discord-profile/static/css/main.0a5718bb.css",
+    "main.js": "/harmony-discord-profile/static/js/main.c6fb6cf6.js",
+    "static/js/453.24d0d54f.chunk.js": "/harmony-discord-profile/static/js/453.24d0d54f.chunk.js",
+    "static/media/pictureOfMe.jpg": "/harmony-discord-profile/static/media/pictureOfMe.42b8cdb7ad76252e1208.jpg",
+    "index.html": "/harmony-discord-profile/index.html",
+    "main.0a5718bb.css.map": "/harmony-discord-profile/static/css/main.0a5718bb.css.map",
+    "main.c6fb6cf6.js.map": "/harmony-discord-profile/static/js/main.c6fb6cf6.js.map",
+    "453.24d0d54f.chunk.js.map": "/harmony-discord-profile/static/js/453.24d0d54f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5718bb.css",
+    "static/js/main.c6fb6cf6.js"
+  ]
+}
